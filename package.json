@@ -1,0 +1,31 @@
+{
+  "name": "taskr-rabbitmq",
+  "version": "0.1.0",
+  "description": "Rabbitmq-based medium for taskr.",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover node_modules/mocha/bin/_mocha -- tests && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/titarenko/taskr-rabbitmq.git"
+  },
+  "keywords": [
+    "taskr"
+  ],
+  "author": "Constantin Titarenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/titarenko/taskr-rabbitmq/issues"
+  },
+  "homepage": "https://github.com/titarenko/taskr-rabbitmq#readme",
+  "devDependencies": {
+    "coveralls": "^2.11.3",
+    "istanbul": "^0.3.17",
+    "mocha": "^2.2.5",
+    "should": "^7.0.2"
+  },
+  "dependencies": {
+    "worque": "^0.4.7"
+  }
+}
