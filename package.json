@@ -1,6 +1,6 @@
 {
   "name": "taskr-rabbitmq",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Rabbitmq-based medium for taskr.",
   "main": "index.js",
   "scripts": {
@@ -26,6 +26,6 @@
     "should": "^7.0.2"
   },
   "dependencies": {
-    "worque": "^0.4.7"
+    "worque": "^0.4.9"
   }
 }
